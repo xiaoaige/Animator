@@ -1,19 +1,13 @@
 package com.example.administrator.animator;
 
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentStatePagerAdapter;
-import android.support.v4.view.ViewPager;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.widget.Button;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.Button;
 import android.widget.LinearLayout;
 
 import com.fadai.particlesmasher.ParticleSmasher;
 import com.fadai.particlesmasher.SmashAnimator;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
     private Button explosionButton,dropButton,leftButton,rightButton,topButton,bottomButton,resetButton;
